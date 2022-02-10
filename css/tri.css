@@ -1,0 +1,89 @@
+@import url(./reset.css);
+body{
+    background-image: url(../img/ps5\ black.jpg);
+    background-size:no-repeat;
+    color: wheat;
+    font-size: 16px;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+#subtitle{
+    font-size: 2rem;
+    margin: 2rem 0;
+
+
+}
+#main img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#img-caption{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+
+}
+#tribute-info .excgames{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+}
+#tribute-info .excgames p{
+    text-align: center;
+}
+#tribute-info .game{
+    width: 202px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    transition: all 0.3s;
+
+}
+#tribute-info .game:hover{
+    /* margin-bottom: 4px;
+    margin-left: 4px; */
+    width: 350px;
+    height: auto;
+    background-color: black;
+}
+#tribute-info img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    margin-bottom: 1rem;
+}
+#tribute-info img:hover{
+    width: 350px;
+    height: auto;
+}
+#tribute-info p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#tribute-info h2{
+    margin: 3rem 0;
+    font-size: 1.5rem;
+}
